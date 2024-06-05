@@ -627,3 +627,69 @@ Mostrar el menú hamburguesa solo en dispositivos móviles
         flex-direction: column;
     }
 }
+.product-detail {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif; /* Cambiar la fuente aquí */
+}
+
+.product-detail img {
+    max-width: 300px; /* Ajusta el tamaño de la imagen según sea necesario */
+    border-radius: 5px;
+}
+
+.product-detail .details {
+    max-width: 600px;
+}
+
+.product-detail h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.product-detail p {
+    margin-bottom: 1rem;
+    font-size: 1rem; /* Ajusta el tamaño de la fuente según sea necesario */
+}
+
+.product-detail .price {
+    color: #b12704;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.product-card {
+    cursor: pointer;
+}
+
+.product-detail {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-detail img {
+    max-width: 100%;
+}
+
+.product-detail h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.product-detail p {
+    margin-bottom: 1rem;
+}
+
+.product-detail .price {
+    color: #b12704;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
